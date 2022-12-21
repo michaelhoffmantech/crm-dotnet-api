@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{59C7D93D-91F0-4F9A-B070-F8AA010D7702}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRM.Service.Api", "Source\CRM.Service.Api\CRM.Service.Api.csproj", "{C195D005-30E0-46A5-BC7E-5FB778DE89B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRM.Service.Application", "Source\CRM.Service.Application\CRM.Service.Application.csproj", "{6D5CB054-B74E-4441-ADCC-58143C2B14C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRM.Service.Common", "Source\CRM.Service.Common\CRM.Service.Common.csproj", "{3A720BBF-4D07-45E5-8B5B-CF1C7057BB20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRM.Service.Domain", "Source\CRM.Service.Domain\CRM.Service.Domain.csproj", "{21FA00DC-01D3-4962-8FD8-7EE2C3A01E7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRM.Service.Integration", "Source\CRM.Service.Integration\CRM.Service.Integration.csproj", "{0625E96C-AD65-492C-A018-257A588B172B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRM.Service.Persistence", "Source\CRM.Service.Persistence\CRM.Service.Persistence.csproj", "{40E4E20D-799D-4397-A634-E61F1C64FD64}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C195D005-30E0-46A5-BC7E-5FB778DE89B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C195D005-30E0-46A5-BC7E-5FB778DE89B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C195D005-30E0-46A5-BC7E-5FB778DE89B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C195D005-30E0-46A5-BC7E-5FB778DE89B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D5CB054-B74E-4441-ADCC-58143C2B14C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D5CB054-B74E-4441-ADCC-58143C2B14C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D5CB054-B74E-4441-ADCC-58143C2B14C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D5CB054-B74E-4441-ADCC-58143C2B14C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A720BBF-4D07-45E5-8B5B-CF1C7057BB20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A720BBF-4D07-45E5-8B5B-CF1C7057BB20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A720BBF-4D07-45E5-8B5B-CF1C7057BB20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A720BBF-4D07-45E5-8B5B-CF1C7057BB20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21FA00DC-01D3-4962-8FD8-7EE2C3A01E7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21FA00DC-01D3-4962-8FD8-7EE2C3A01E7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21FA00DC-01D3-4962-8FD8-7EE2C3A01E7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21FA00DC-01D3-4962-8FD8-7EE2C3A01E7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0625E96C-AD65-492C-A018-257A588B172B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0625E96C-AD65-492C-A018-257A588B172B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0625E96C-AD65-492C-A018-257A588B172B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0625E96C-AD65-492C-A018-257A588B172B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40E4E20D-799D-4397-A634-E61F1C64FD64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40E4E20D-799D-4397-A634-E61F1C64FD64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40E4E20D-799D-4397-A634-E61F1C64FD64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40E4E20D-799D-4397-A634-E61F1C64FD64}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C195D005-30E0-46A5-BC7E-5FB778DE89B2} = {59C7D93D-91F0-4F9A-B070-F8AA010D7702}
+		{6D5CB054-B74E-4441-ADCC-58143C2B14C5} = {59C7D93D-91F0-4F9A-B070-F8AA010D7702}
+		{3A720BBF-4D07-45E5-8B5B-CF1C7057BB20} = {59C7D93D-91F0-4F9A-B070-F8AA010D7702}
+		{21FA00DC-01D3-4962-8FD8-7EE2C3A01E7E} = {59C7D93D-91F0-4F9A-B070-F8AA010D7702}
+		{0625E96C-AD65-492C-A018-257A588B172B} = {59C7D93D-91F0-4F9A-B070-F8AA010D7702}
+		{40E4E20D-799D-4397-A634-E61F1C64FD64} = {59C7D93D-91F0-4F9A-B070-F8AA010D7702}
+	EndGlobalSection
+EndGlobal

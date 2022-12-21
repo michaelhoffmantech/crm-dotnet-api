@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Source\CRM.Service.Application\CRM.Service.Api.csproj" />
+    <ProjectReference Include="..\..\Source\CRM.Service.Application\CRM.Service.Application.csproj" />
+    <ProjectReference Include="..\..\Source\CRM.Service.Common\CRM.Service.Common.csproj" />
+    <ProjectReference Include="..\..\Source\CRM.Service.Domain\CRM.Service.Domain.csproj" />
+    <ProjectReference Include="..\..\Source\CRM.Service.Integration\CRM.Service.Integration.csproj" />
+    <ProjectReference Include="..\..\Source\CRM.Service.Persistence\CRM.Service.Persistence.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
