@@ -11,6 +11,6 @@ public class CustomerController : ControllerBase
     [HttpGet("{id}")]
     public ActionResult<Customer> GetCustomer(int id)
     {
-        return new Customer(id); 
+        return Ok(new Customer(id)); 
     }
 }
